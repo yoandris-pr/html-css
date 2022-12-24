@@ -1,0 +1,42 @@
+body {
+  margin: 0px;
+}
+/* selector por id */
+#menu-sec {
+  float: left;
+  border: 1px dashed green;
+  height: 40px;
+  width: 1024px;
+  background-color: black;
+}
+/* Selector de clase */
+.m1 {
+  float: left;
+  margin-right: 5px;
+  width: 180px;
+  padding: 2px;
+  background-color: aquamarine;
+  text-align: center;
+}
+/* div section{
+    transition: border 5s 2s ease ; 
+    border: 1px red dashed; 
+    box-shadow: 0 1px 7px 3px yellowgreen; 
+
+}
+div section:hover{
+  border: 10px yellow dotted;
+}  */
+/* Testeando el transition en las propiedades(a cualquier propiedad) */
+img {
+  transition: width 5s 2s ease, border 3s 2s, box-shadow 3s 1s;
+  width: 400px;
+  display: block;
+  border: 1px blue;
+  box-shadow: 0 1px 7px 3px yellowgreen;
+}
+img:hover {
+  width: 450px;
+  border: 1px yellow;
+  box-shadow: 0 5px 7px 3px red;
+}
